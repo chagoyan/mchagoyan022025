@@ -1,0 +1,10 @@
+body {
+    background-color: crimson;
+}
+
+h1 {
+    text-align: center;
+    padding: 1rem;
+    border: 2px solid white;
+    background-color: olivedrab;
+}

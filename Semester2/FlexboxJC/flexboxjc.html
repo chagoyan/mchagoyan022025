@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FlexboxJC</title>
+    <style>
+        body {
+            background-color: steelblue;
+        }
+
+        h1, h2 {
+            color: white;
+            text-align: center;
+        }
+
+        #wrapper {
+            border: 5px solid white;
+            background-color: lightblue;
+            width: 80%;
+            min-width: 600px;
+            margin: auto;
+            padding: 1rem;
+        }
+
+        .box {
+            height: 100px;
+            width: 100px;
+            background-color: slategray;
+            border: 5px solid black;
+            margin: 1rem;
+            padding: 1rem;
+            border-radius: 10px;
+        }
+
+        #fb001 {
+            border: 5px dotted black;
+            margin: 1rem;
+            display:flex;
+            flex-direction:row;
+            justify-content: center;
+
+        }
+        #fb002
+        {
+            border:5px dotted magenta;
+            margin:1rem;
+            display:flex;
+            justify-content:space-between;
+        }
+        #fb003
+        {
+            border:5px dashed lime;
+            margin:1rem;
+            display:flex;
+            justify-content:space-evenly;
+        }
+        #fb004
+        {
+            border:5px dashed blue;
+            margin:1rem;
+            display:flex;
+            justify-content:space-around;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>FlexboxJC</h1>
+    <h2>Justify-Content</h2>
+    <h2>Manuel Chagoyan</h2>
+    <div id="wrapper">
+
+        <div id="fb001">
+            <div class="box">001</div>
+            <div class="box">002</div>
+        </div>
+
+
+    <div id="fb002">
+            <div class="box">003</div>
+            <div class="box">004</div>
+            <div class="box">005</div>
+    </div>
+
+
+    <div id="fb003">
+            <div class="box">006</div>
+            <div class="box">007</div>
+            <div class="box">008</div>
+    </div>
+
+
+
+    <div id="fb004">
+            <div class="box">009</div>
+            <div class="box">010</div>
+            <div class="box">011</div>
+    </div>
+
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manuel Chagoyan - Portfolio</title>
+
+    <style>
+        /* CSS Section */
+        body {
+            background-color: tomato;
+            background-image: url(https://i.pinimg.com/originals/ae/c4/b6/aec4b682ac20f6fa1a5cfaf7d85945d8.jpg);
+            background-size: cover;
+            background-attachment: fixed;
+        }
+
+        #container {
+            background-color: rgba(255, 136, 0, 0.493);
+            border-radius: 35px;
+            padding: 16px;
+            width: 80%;
+            max-width: 1200px;
+            margin: auto;
+            margin-top: 150px;
+        }
+
+        #wrapper {
+            border: 5px solid black;
+            width: 80%;
+            margin: auto;
+        }
+
+        #pageheader {
+            min-height: 200px;
+            background-color: lightgreen;
+            padding: 16px;
+            background-image: url(https://i.pinimg.com/originals/ae/c4/b6/aec4b682ac20f6fa1a5cfaf7d85945d8.jpg);
+            background-size: cover;
+            transition: all 2s;
+        }
+
+        #pagenav {
+            min-height: 50px;
+            background-color: seagreen;
+            padding: 16px;
+
+        }
+
+        #media {
+            min-height: 50px;
+            background-color: cadetblue;
+            padding: 16px;
+        }
+
+        main {
+            min-height: 50px;
+            background-color: white;
+            padding: 16px;
+        }
+
+        p {
+            color: #333;
+            line-height: 1.5;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        #fbcircles {
+            background-color: none;
+            padding: 1rem;
+            display: flex;
+            justify-content: space-between;
+        }
+
+
+        .circle {
+            height: 6px;
+            width: 6px;
+            background-color: black;
+            border: 1px solid black;
+            border-radius: 50%;
+        }
+
+
+        #semester1 {
+            min-height: 50px;
+            background-color: aquamarine;
+            padding: 16px;
+        }
+
+        #semester2 {
+            min-height: 50px;
+            background-color: darkolivegreen;
+            padding: 16px;
+        }
+
+        #pagefooter {
+            min-height: 50px;
+            background-color: darkcyan;
+            padding: 16px;
+        }
+
+        ul#footerlinks {
+            background-color: none;
+            padding: 0;
+            list-style-type: none;
+            display: flex;
+            justify-content: space-evenly;
+            flex-wrap: wrap;
+        }
+
+        ul#footerlinks li {
+            border: 1px solid none;
+            text-align: center;
+            padding: .5rem;
+
+        }
+
+
+
+        #subfooter {
+            min-height: 50px;
+            background-color: turquoise;
+            padding: 16px;
+        }
+
+        @media screen and (min-width: 800px) {
+            #media {
+                background-color: red;
+            }
+
+            #pagenav {
+                background-color: blue;
+            }
+
+            #pageheader {
+                min-height: 500px;
+            }
+
+            #fbsemesters {
+                display: flex;
+            }
+
+            #semester1 {
+                flex-basis: 50%;
+            }
+
+            #semester2 {
+                flex-basis: 50%;
+            }
+
+
+        }
+    </style>
+
+</head>
+
+<body>
+    <div id="container">
+        <div id="wrapper">
+            <header id="pageheader"> Header </header>
+            <nav id="pagenav"> Nav </nav>
+            <div id="media"> Media</div>
+
+            <main>
+                <h1>Sandbox Portfolio</h1>
+
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus quae nesciunt esse saepe accusamus
+                    sapiente, voluptatem odit aliquam nihil ullam eos vel suscipit nisi nam corporis reiciendis amet ea
+                    libero enim debitis dolorem blanditiis praesentium rerum. Nihil numquam illo fugit est possimus
+                    autem
+                    debitis, dolorum eos recusandae magni, pariatur incidunt.
+                </p>
+
+
+                <p>
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dignissimos nostrum ab nesciunt dicta,
+                    aspernatur quibusdam voluptatem sit voluptatum, amet ut id omnis illum sequi similique quia eum,
+                    blanditiis aut eveniet? Maiores nobis provident facilis voluptates?
+                </p>
+
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe aliquam aliquid quidem fugit, est
+                    laborum porro asperiores quod repellendus numquam tempore rerum sint dolorem quam.
+                </p>
+
+                <h2>Career</h2>
+
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit laudantium unde beatae, delectus
+                    mollitia id, temporibus voluptatum sit architecto eos nostrum ipsa facere nisi nam laborum?
+                    Laboriosam nisi ea ipsa.
+                </p>
+
+
+                <div id="fbcircles">
+                    <div class="circle"></div>
+                    <div class="circle"></div>
+                    <div class="circle"></div>
+                    <div class="circle"></div>
+                    <div class="circle"></div>
+                    <div class="circle"></div>
+                    <div class="circle"></div>
+                    <div class="circle"></div>
+                </div>
+
+
+
+            </main>
+
+
+
+            <div id="fbsemesters">
+                <section id="semester1"> Semester 1</section>
+                <section id="semester2"> Semester 2</section>
+            </div>
+
+
+
+            <footer id="pagefooter">
+
+                <ul id="footerlinks">
+                    <li>
+                        <a href="https://chs.chusd.org/" target="new">CHS</a>
+                    </li>
+                    <li>Adobe Color</li>
+                    <li>Aeries</li>
+                    <li>Classroom</li>
+                    <li>Minga</li>
+                </ul>
+
+
+            </footer>
+
+
+            <footer id="subfooter"> Subfooter</footer>
+        </div>
+        <!-- End wrapper -->
+    </div>
+    <!-- End container -->
+</body>
+
+</html>

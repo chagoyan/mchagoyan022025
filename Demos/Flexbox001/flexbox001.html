@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexbox001</title>
+    <style>
+        body {
+            background-color: coral;
+        }
+
+        #wrapper {
+            border: 5px solid white;
+        }
+
+        h1 {
+            text-align: center;
+        }
+
+        header {
+            min-height: 200px;
+            padding: 16px;
+            background-color: aquamarine;
+            flex-basis: 75%;
+        }
+
+        nav {
+            min-height: 100px;
+            padding: 16px;
+            background-color: seagreen;
+            flex-basis: 25%;
+        }
+
+        div#media {
+            min-height: 100px;
+            padding: 16px;
+            background-color: lightcoral;
+            flex: 1;
+        }
+
+        main {
+            min-height: 100px;
+            padding: 16px;
+            background-color: lightskyblue;
+            flex: 3;
+        }
+
+        footer {
+            min-height: 100px;
+            padding: 16px;
+            background-color: lightslategray;
+            flex: 1;
+        }
+
+        footer#subfooter {
+            min-height: 100px;
+            padding: 16px;
+            background-color: lightgoldenrodyellow;
+            flex: 1;
+        }
+
+        #fb001 {
+            border: 5px solid red;
+            display: flex;
+        }
+
+        #fb002 {
+            border: 5px solid blue;
+            display: flex;
+        }
+
+        #fb003 {
+            border: 5px solid hotpink;
+            display: flex;
+        }
+
+
+
+        @media screen and (min-width:800px) {
+            body {
+                background-color: purple;
+            }
+
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Flexbox001</h1>
+
+
+
+    <div id="wrapper">
+
+
+        <div id="fb001">
+            <header> Header </header>
+            <nav> Nav</nav>
+        </div>
+
+
+        <div id="fb002">
+            <div id="media"> Media</div>
+            <main> Main </main>
+        </div>
+
+
+        <div id="fb003">
+            <footer> Footer </footer>
+            <footer id="subfooter"> Subfooter</footer>
+        </div>
+
+    </div>
+
+</body>
+
+</html>
