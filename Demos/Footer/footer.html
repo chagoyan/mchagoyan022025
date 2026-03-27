@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>🍔 Footer</title>
+    <style>
+        /* Mobile First */
+
+
+        body {
+            background-color: slategray;
+        }
+
+        #pagefooter {
+            background-color: black;
+            padding: 1rem;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            min-height: 75px;
+            align-items: center;
+            color: white;
+            font-family: Arial, Helvetica, sans-serif;
+            max-width: 1280px;
+            margin: auto;
+        }
+
+        a {
+            color: white;
+        }
+
+        address {
+            background-color: none;
+            font-style: normal;
+            padding: 1rem;
+            text-align: center;
+        }
+
+        #copyright {
+            background-color: none;
+            padding: 1rem;
+        }
+
+        #contact {
+            background-color: none;
+            padding: 1rem;
+            text-align: center;
+        }
+
+        /* Tablet and Desktop */
+        @media screen and (min-width:650px) {
+
+            #pagefooter {
+                flex-direction: row;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <h1> 🍔 Footer 🍔</h1>
+
+
+    <footer id="pagefooter">
+        <address>
+            📍 <a
+                href="https://www.openstreetmap.org/search?query=Coalinga+High+School&zoom=19&minlon=-120.36409467458726&minlat=36.14352817301838&maxlon=-120.36065340042116&maxlat=36.14527178083866#map=19/36.144400/-120.362374">
+                750 Van Ness St. <br>
+                Coalinga, CA 93210
+            </a>
+        </address>
+
+        <div id="copyright">
+
+            &copy; 2026 Coalinga High School
+
+        </div>
+
+
+        <div id="contact">
+            ✉️ <a href="mailto:info@coalingahigh.com">info@coalingahigh.com</a>
+            <br>
+            📞 <a href="tel:+15599357520">(559) 935-7520</a>
+        </div>
+
+    </footer>
+
+</body>
+
+</html>
