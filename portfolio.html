@@ -22,9 +22,48 @@
         }
 
         #hero {
-            background-color: rgb(136, 67, 81);
+            height: 60vh;
+            background-image: url(Images/hero_image.jpg);
+            background-size: cover;
+            background-position: top center;
+            background-repeat: no-repeat;
+            padding: 20px;
+            color: white;
+            display: flex;
+            text-align: center;
+            justify-content: center;
+            align-items: center;
+        }
+
+        #hero-content h1 {
+            color: white;
+            font-size: 3rem;
+            margin-bottom: 10px;
+            text-shadow: 2px 2px 2px black;
+        }
+
+        #hero-content p {
+            color: white;
+            font-size: 1.2rem;
+            background-color: rgba(0, 0, 0, 0.5);
             padding: 1rem;
-            min-height: 500px;
+            border-radius: 1rem;
+            margin-bottom: 20px;
+        }
+
+        #hero-content a {
+            color: white;
+            background-color: black;
+            padding: 12px 24px;
+            text-decoration: none;
+            font-weight: bold;
+            display: inline-block;
+            border-radius: 6px;
+        }
+
+        section#career {
+            background-color: rgb(116, 53, 65);
+            padding: 1rem;
         }
 
         section#semesters {
@@ -68,8 +107,28 @@
     </nav>
 
     <section id="hero">
-        Hero
+        <div id="hero-content">
+            <h1>Welcome to my Portfolio</h1>
+            <p>Explore my projects and see what I can create.</p>
+            <a href="#">Get Started </a>
+        </div>
     </section>
+
+    <section id="career">
+        <div class="container">
+            Career
+            <ul>
+                <li>Career Action Plan</li>
+                <li>Job Application</li>
+                <li>Letter of Introduction</li>
+                <li>References</li>
+                <li>Resume</li>
+                <li>Letter of Recommendation</li>
+            </ul>
+        </div>
+    </section>
+
+
 
     <section id="semesters">
         <div class="container">
